@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import AuthInput from "../components/UI/AuthInput";
+import AuthInput from "../components/UI/AuthInput/AuthInput";
 import { useAuth } from "../store/AuthStore";
 
 const Register: FC = () => {

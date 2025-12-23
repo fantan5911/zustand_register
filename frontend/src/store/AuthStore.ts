@@ -20,6 +20,8 @@ export const useAuth = create<Auth>((set, get) => ({
     register: async () => {
         const {login, password} = get();
 
+        console.log(`Добавлен пользователь ${login} ${password}`);
+
         await axios.post<IUser>("http://localhost/api/users/register", {
             login: login,
             password: password

@@ -7,4 +7,6 @@
 .Myinput {
     border: solid 2px teal;
     padding: 2px 5px 2px 5px;
+    margin-top: 5px;
+    font-size: 15px;
 }
